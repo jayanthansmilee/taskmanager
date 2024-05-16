@@ -1,0 +1,236 @@
+.modal-dp-full {
+    max-width: 1500px;
+    height: 30%
+}
+
+.modal-dp-viewOnly {
+    height: 30%!important
+}
+
+.modal-dp-eightypercent {
+    max-width: 80%!important
+}
+
+.modal-dp-seventyPercentWidth {
+    max-width: 70%!important
+}
+
+.modal-dp-sixtyPercentWidth {
+    max-width: 60%!important
+}
+
+.modal-dp-fiftyPercentWidth {
+    max-width: 50%!important
+}
+
+.modal-dp-fortyPercentWidth {
+    max-width: 40%!important
+}
+
+.modal-dp-thirtyPercentWidth {
+    max-width: 30%!important
+}
+
+.modal-header {
+    background: #eee!important;
+    padding-bottom: 5px!important;
+    padding-top: 5px!important
+}
+
+.modal-body {
+    padding: 1rem!important
+}
+
+.modal-footer {
+    padding: 3px 0 3px 0!important;
+    margin-bottom: -5px!important;
+    background-color: #f7f7f7!important
+}
+
+.checkbox-disabled-opacity-1.custom-checkbox .custom-control-input:disabled:checked~.custom-control-label:before {
+    background-color: var(--primary)!important
+}
+
+.custom-starrating-label .vue-star-rating-rating-text {
+    position: relative;
+    top: 2.5px;
+    font-weight: 700;
+    font-size: .9em
+}
+
+.TaskDescription[data-v-66327b50] {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+    min-height: 0;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    text-align: justify
+}
+
+.btn.w-100-on-hover[data-v-66327b50] {
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease
+}
+
+.btn.w-100-on-hover[data-v-66327b50]:hover {
+    width: 100%!important
+}
+
+.visible-on-parent-hover[data-v-66327b50] {
+    display: none
+}
+
+.btn.w-100-on-hover:hover .visible-on-parent-hover[data-v-66327b50] {
+    display: inline!important
+}
+
+.primary-text {
+    color: var(--primary)!important
+}
+
+.shown,show-options-on-hover {
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease
+}
+
+.shown {
+    display: none
+}
+
+.show-options-on-hover:hover .shown {
+    display: block!important
+}
+
+.notif-tab-pills ul.nav.nav-pills {
+    margin-left: .5rem!important;
+    margin-right: .5rem!important
+}
+
+.not-task-view.vue-slideout {
+    z-index: 99999!important
+}
+
+.logoClass[data-v-7889bef3] {
+    width: 3.5em!important;
+    height: 3.5em!important;
+    margin: 0 auto!important;
+    display: block!important;
+    opacity: .9
+}
+
+btn:hover .show-on-btn-hover[data-v-7889bef3] {
+    display: inline
+}
+
+.show-on-btn-hover[data-v-7889bef3] {
+    display: none
+}
+
+.logoClass[data-v-50d0a28c] {
+    width: 3.5em!important;
+    height: 3.5em!important;
+    margin: 0 auto!important;
+    display: block!important;
+    opacity: .9
+}
+
+.dp-expand-nav-on-hover .expand-this {
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease
+}
+
+.dp-expand-nav-on-hover:hover .expand-this {
+    text-align: left!important
+}
+
+.dp-expand-nav-on-hover:hover li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 10px
+}
+
+.dp-expand-nav-on-hover:hover li>a {
+    width: 100%
+}
+
+.dp-show-on-parent-hover {
+    display: none
+}
+
+.dp-expand-nav-on-hover:hover .dp-show-on-parent-hover {
+    display: block;
+    -webkit-animation: dpFadeIn 2s ease;
+    animation: dpFadeIn 2s ease
+}
+
+.dp-expand-nav-on-hover:hover .logoClass,.dp-expand-nav-on-hover:hover .nav-icon {
+    margin: 0 15px 0 0!important
+}
+
+.dp-expand-nav-on-hover:hover .nav-item-hold {
+    display: -webkit-box!important;
+    display: -ms-flexbox!important;
+    display: flex!important
+}
+
+.layout-sidebar-compact.sidenav-open .sidebar-left-secondary {
+    left: 190px!important
+}
+
+.show-on-sidebar-left-hover {
+    display: none
+}
+
+.show-sidebar-secondary {
+    display: block!important
+}
+
+@media (max-width: 768px) {
+    .sidebar-left.open .navigation-left {
+        width:85vw!important
+    }
+
+    .sidebar-left.open .dp-show-on-parent-hover {
+        display: block!important
+    }
+
+    .sidebar-left.open .dp-expand-nav-on-hover li>a {
+        width: 100%
+    }
+
+    .sidebar-left.open .nav-item-hold {
+        display: -webkit-box!important;
+        display: -ms-flexbox!important;
+        display: flex!important
+    }
+
+    .sidebar-left.open .nav-icon {
+        margin-left: .5rem!important;
+        margin-right: 15px!important
+    }
+
+    .sidebar-left.open .nav-item {
+        padding-left: 10px!important
+    }
+
+    .sidebar-left.open .expand-this {
+        text-align: left!important
+    }
+}
+
+@media (min-width: 769px) {
+    .dp-expand-nav-on-hover:hover .expand-this {
+        width:191px!important
+    }
+}
+
+.logoClass[data-v-002d14a4] {
+    width: 3.5em!important;
+    height: 3.5em!important;
+    margin: 0 auto!important;
+    display: block!important;
+    opacity: .9
+}

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <meta charset=utf-8>
+        <meta http-equiv=X-UA-Compatible content="IE=edge">
+        <meta name=viewport content="width=device-width,initial-scale=1">
+        <link href=css/style.css rel=stylesheet>
+        <!--[if IE]><link rel="icon" href="/favicon.ico" /><![endif]-->
+        <style>
+            .loading_wrap {
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+                background: #FFF;
+                display: block;
+                position: absolute;
+            }
+
+            .loader_logo {
+                height: 80px;
+                width: 80px;
+                position: absolute;
+                left: calc(50% - 50px);
+                top: 38%;
+            }
+
+            .loader_logo img {
+                height: 100%;
+                width: 100%;
+            }
+
+            .logo_domain {
+                width: 50px;
+                height: 50px;
+                margin: 0 auto;
+                display: block;
+                opacity: 0.6;
+            }
+
+            .loading {
+                border: 3px solid rgba(102, 51, 153, 0.45);
+                position: absolute;
+                left: calc(50% - 35px);
+                top: 50%;
+                width: 55px;
+                height: 55px;
+                border-radius: 50%;
+                border-top-color: #663399;
+                animation: loader 1s ease-in-out infinite;
+                -webkit-animation: loader 1s ease-in-out infinite;
+            }
+
+            @keyframes loader {
+                to {
+                    -webkit-transform: rotate(360deg);
+                }
+            }
+
+            @-webkit-keyframes loader {
+                to {
+                    -webkit-transform: rotate(360deg);
+                }
+            }
+        </style>
+        <title>BIT-Task</title>
+        <link rel=preconnect href=https://fonts.gstatic.com>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel=stylesheet>
+        <link href=/css/chunk-100955d5.7ce821e3.css rel=prefetch>
+        <link href=/css/chunk-162dbe60.016686a7.css rel=prefetch>
+        <link href=/css/chunk-1a712406.3b5af59f.css rel=prefetch>
+        <link href=/css/chunk-1b880746.7f56aab4.css rel=prefetch>
+        <link href=/css/chunk-20ce0211.8506ed5e.css rel=prefetch>
+        <link href=/css/chunk-2ffcf9ee.aedb915c.css rel=prefetch>
+        <link href=/css/chunk-4b32a9a2.fa7e4a45.css rel=prefetch>
+        <link href=/css/chunk-4e02a0ec.e94030a4.css rel=prefetch>
+        <link href=/css/chunk-55363a14.b68e0645.css rel=prefetch>
+        <link href=/css/chunk-59ff1bab.422906e5.css rel=prefetch>
+        <link href=/css/chunk-5adb4a40.54cacde1.css rel=prefetch>
+        <link href=/css/chunk-5f9d7748.79c177b7.css rel=prefetch>
+        <link href=/css/chunk-70bab530.4c31aff3.css rel=prefetch>
+        <link href=/css/chunk-721e058b.f58df13a.css rel=prefetch>
+        <link href=/css/chunk-758d7954.599b9ba0.css rel=prefetch>
+        <link href=/css/chunk-7936ef07.8f9aa21c.css rel=prefetch>
+        <link href=/css/chunk-7fcca63a.b175c77e.css rel=prefetch>
+        <link href=/css/chunk-954cbc00.12063852.css rel=prefetch>
+        <link href=/css/chunk-bc798e6e.e773a575.css rel=prefetch>
+        <link href=/css/chunk-cc1a2434.259c8dcf.css rel=prefetch>
+        <link href=/css/chunk-cc57fabc.ad2739b5.css rel=prefetch>
+        <link href=/css/chunk-eac35dd6.4a0e5635.css rel=prefetch>
+        <link href=/js/chunk-100955d5.ca5ccff0.js rel=prefetch>
+        <link href=/js/chunk-162dbe60.b750940a.js rel=prefetch>
+        <link href=/js/chunk-1a712406.f99c61be.js rel=prefetch>
+        <link href=/js/chunk-1b880746.f45b2125.js rel=prefetch>
+        <link href=/js/chunk-20ce0211.67596f52.js rel=prefetch>
+        <link href=/js/chunk-25608b2b.98a2c52b.js rel=prefetch>
+        <link href=/js/chunk-261c1a08.c80ea1ba.js rel=prefetch>
+        <link href=/js/chunk-2d0a47e0.557c4a14.js rel=prefetch>
+        <link href=/js/chunk-2d0a5531.fded765a.js rel=prefetch>
+        <link href=/js/chunk-2d0aacf8.bad83cbf.js rel=prefetch>
+        <link href=/js/chunk-2d0abc75.595dc974.js rel=prefetch>
+        <link href=/js/chunk-2d0abe0e.89d92930.js rel=prefetch>
+        <link href=/js/chunk-2d0af8d7.e1793d7a.js rel=prefetch>
+        <link href=/js/chunk-2d0b2974.cfa5c48c.js rel=prefetch>
+        <link href=/js/chunk-2d0c09e6.ceeb3c93.js rel=prefetch>
+        <link href=/js/chunk-2d0c4259.87767360.js rel=prefetch>
+        <link href=/js/chunk-2d0c820a.d7978710.js rel=prefetch>
+        <link href=/js/chunk-2d0c94ce.8d2632e6.js rel=prefetch>
+        <link href=/js/chunk-2d0cfb04.82da7749.js rel=prefetch>
+        <link href=/js/chunk-2d0cfe55.6acdf18c.js rel=prefetch>
+        <link href=/js/chunk-2d0d3104.ae5f5519.js rel=prefetch>
+        <link href=/js/chunk-2d0d6b14.7fe751f6.js rel=prefetch>
+        <link href=/js/chunk-2d0dd63a.ff820182.js rel=prefetch>
+        <link href=/js/chunk-2d0de8d6.5c1acc48.js rel=prefetch>
+        <link href=/js/chunk-2d0e48ca.802d0f60.js rel=prefetch>
+        <link href=/js/chunk-2d0e5f37.ef85118e.js rel=prefetch>
+        <link href=/js/chunk-2d0e6102.2a47268a.js rel=prefetch>
+        <link href=/js/chunk-2d0e97b4.438609f5.js rel=prefetch>
+        <link href=/js/chunk-2d213326.220fa975.js rel=prefetch>
+        <link href=/js/chunk-2d213e78.ba2b32ea.js rel=prefetch>
+        <link href=/js/chunk-2d213ec8.e1237fad.js rel=prefetch>
+        <link href=/js/chunk-2d216b07.5db69b15.js rel=prefetch>
+        <link href=/js/chunk-2d21b25f.aea22f8c.js rel=prefetch>
+        <link href=/js/chunk-2d21eb55.de9d8c05.js rel=prefetch>
+        <link href=/js/chunk-2d222769.dfcdb291.js rel=prefetch>
+        <link href=/js/chunk-2d225004.c70a08e9.js rel=prefetch>
+        <link href=/js/chunk-2d2288e4.d3a8c3b5.js rel=prefetch>
+        <link href=/js/chunk-2d22d779.975e025d.js rel=prefetch>
+        <link href=/js/chunk-2d230e0a.796b953c.js rel=prefetch>
+        <link href=/js/chunk-2ffcf9ee.a4896b06.js rel=prefetch>
+        <link href=/js/chunk-3938d7fd.63c474bd.js rel=prefetch>
+        <link href=/js/chunk-467b247a.39ff11a4.js rel=prefetch>
+        <link href=/js/chunk-4b32a9a2.12a47115.js rel=prefetch>
+        <link href=/js/chunk-4e02a0ec.50d33b3f.js rel=prefetch>
+        <link href=/js/chunk-55363a14.4802f8ac.js rel=prefetch>
+        <link href=/js/chunk-59ff1bab.bc9e32fc.js rel=prefetch>
+        <link href=/js/chunk-5adb4a40.409391ab.js rel=prefetch>
+        <link href=/js/chunk-5b498470.8490c124.js rel=prefetch>
+        <link href=/js/chunk-5f9d7748.d9c083b6.js rel=prefetch>
+        <link href=/js/chunk-70bab530.b950d9d0.js rel=prefetch>
+        <link href=/js/chunk-71468141.d5a7f3be.js rel=prefetch>
+        <link href=/js/chunk-721e058b.6c8e1577.js rel=prefetch>
+        <link href=/js/chunk-758d7954.5c29c032.js rel=prefetch>
+        <link href=/js/chunk-7936ef07.aac3e083.js rel=prefetch>
+        <link href=/js/chunk-7fcca63a.d7734091.js rel=prefetch>
+        <link href=/js/chunk-92042438.4a092200.js rel=prefetch>
+        <link href=/js/chunk-954cbc00.e7f740df.js rel=prefetch>
+        <link href=/js/chunk-bc798e6e.ef414809.js rel=prefetch>
+        <link href=/js/chunk-c0892be8.3f53f20d.js rel=prefetch>
+        <link href=/js/chunk-cc1a2434.3bc2ad1a.js rel=prefetch>
+        <link href=/js/chunk-cc57fabc.8b0088d0.js rel=prefetch>
+        <link href=/js/chunk-dfd3cdde.d17fc6ae.js rel=prefetch>
+        <link href=/js/chunk-eac35dd6.9385cf55.js rel=prefetch>
+        <link href=/js/chunk-f8939a5a.ba48527c.js rel=prefetch>
+        <link href=/css/chunk-vendors.7f312231.css rel=preload as=style>
+        <link href=/css/index.1992e36b.css rel=preload as=style>
+        <link href=/js/chunk-vendors.ba9af640.js rel=preload as=script>
+        <link href=/js/index.011760f4.js rel=preload as=script>
+        <link href=/css/chunk-vendors.7f312231.css rel=stylesheet>
+        <link href=/css/index.1992e36b.css rel=stylesheet>
+        <link rel=icon type=image/png sizes=32x32 href=/img/icons/favicon-32x32.png>
+        <link rel=icon type=image/png sizes=16x16 href=/img/icons/favicon-16x16.png>
+        <link rel=manifest href=/manifest.json>
+        <meta name=theme-color content=#663399>
+        <meta name=apple-mobile-web-app-capable content=no>
+        <meta name=apple-mobile-web-app-status-bar-style content=default>
+        <meta name=apple-mobile-web-app-title content=Task>
+        <link rel=apple-touch-icon href=/img/icons/apple-touch-icon-152x152.png>
+        <link rel=mask-icon href=/img/icons/safari-pinned-tab.svg color=#663399>
+        <meta name=msapplication-TileImage content=/img/icons/msapplication-icon-144x144.png>
+        <meta name=msapplication-TileColor content=#663399>
+    </head>
+    <body class=text-left id=bittaskbody>
+        <noscript>
+            <strong>We're sorry but this app doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+        </noscript>
+        <div class=loading_wrap id=loading_wrap>
+            <div class=loader_logo>
+                <img src=/img/logo.png class=logo_domain alt=logo>
+            </div>
+            <div class=loading></div>
+        </div>
+        <div id=app></div>
+        <script src=/js/chunk-vendors.ba9af640.js></script>
+        <script src=/js/index.011760f4.js></script>
+    </body>
+</html>
